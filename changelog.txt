@@ -1,0 +1,136 @@
+=== Customiser Tools For GinkGos ===
+
+== Archived Changelog Entries ==
+
+This file contains older changelog entries, so we can keep the size of the standard WordPress readme.txt file reasonable.
+For the latest changes, please see the "Changelog" section of the [readme.txt file](https://plugins.svn.wordpress.org/ct4gg/trunk/readme.txt).
+
+= 1.5.1 (2402-SFP1) =
+*Release Date - 11 Febrary 2024*
+
+* Test up Woodpress 6.4.3,
+* Add Header check Security,
+* Add Header check information,
+* Add Header check Cache,
+* Add function to desable ChatGPT and ChatGPT pluging in Robot.txt,
+* Correction phpcs 3.7.2 error.
+
+= 1.5.0 (2309-SFP1) =
+*Release Date - 30 September 2023*
+
+* Test up Woodpress 6.3.1,
+* Add Header check Security,
+* Add Header check information,
+* Add Header check Cache,
+* Add function to desable ChatGPT and ChatGPT pluging in Robot.txt,
+* Correction phpcs 3.7.2 error.
+
+= 1.4.8 (2304-SFP1) =
+*Release Date - 2 April 2023*
+
+* Sanitized Data, Escaped, and Validated (used sanitize_text_field),
+* Variables and options must be escaped.
+
+= 1.4.7 (2303-SFP1) =
+*Release Date - 22 March 2023*
+
+* Test up Woodpress 6.2.
+
+= 1.4.6 (2302-SFP2) =
+*Release Date - 08 Febrary 2023*
+
+* Bug 1.4.5,
+* Test up to Wordpress 6.1.1,
+* Add management of file security.txt.
+
+= 1.4.5 (2302-SFP1) =
+*Release Date - 04 Febrary 2023*
+
+* Test up to Wordpress 6.1.1,
+* Add management of file security.txt.
+
+= 1.4.4 (2205-SFP1) =
+*Release Date - 25 May 2022*
+
+* Test up to Wordpress 6.0.
+
+= 1.4.3 (2204-SFP1) =
+*Release Date - 17 April 2022*
+
+* Add Message for new options for customize login page (New Version only),
+* Fixed styles,
+* Add manual file modification .htaccess,
+* Add manual file modification robots.txt,
+* Add manual file modification humans.txt,
+* Test for Wordpress 5.9
+
+= 1.4.2 (2203-SFP2) =
+*Release Date - 6 March 2022*
+
+* Test for Wordpress 5.9,
+* Adjustment Administration Login Custom.
+
+= 1.4.0 (2201-SFP1) =
+*Release Date - 11 January 2022*
+
+* Fixed error on Humans_Header class,
+* Add social media sharing buttons,
+
+= 1.3.1 (2112-SFP2) =
+*Release Date - 11 December 2021*
+
+* fixed SVN commit.
+
+= 1.3.0 (2112-SFP1) =
+*Release Date - 11 Decembre 2021*
+
+* Fixed for front page (home) not display a message at the top of articles older than X days,
+* Fixed options not display,
+* Fixed for post type as page not display a message at the top of articles older than X days,
+* Add Auto update .htaccess, humans.txt and robots.txt after saving options,
+* Add Rewrite URL for wp-login.php options (login, logout, ...),
+* Change management wp-login.php (New Version),
+* Add new options for customize login page (New Version only),
+* Add support information and link.
+
+= 1.2.1 (2111-SFP2) =
+*Release Date - 15 November 2021*
+
+* Add generator for robots.txt
+* Add generator for humans.txt
+
+= 1.1.1 (2110-SFP2) =
+*Release Date - 8 October 2021*
+
+* fixed file ct4gg/inc/Init.php line 62: Fatal error: Uncaught Error: Class 'CT4GG\Pages\HTAcccess' not found .
+
+= 1.1.0 (2110-SFP1) =
+*Release Date - 8 October 2021*
+
+* fixed file inc/Ui/Post.php line 22 & 28 add test is_array
+* Added management of the .htaccess file
+* .htaccess: Disable display of directory contents
+* .htaccess: Hide server information
+* .htaccess: Protect .htaccess and .htpasswds files
+* .htaccess: Enable Force download
+* .htaccess: Enable cache expires
+* .htaccess: Compressing static files
+
+= 1.0.0 (2110) =
+*Release Date - 1 October 2021*
+
+* fixed style login message
+* fixed style ct4gg
+* Add option to delete Wordpress logo in dashboard administration
+* Add option to redirect to home page after logout
+* Add option to hide login errors
+* Add option for no admin user to go back home
+* Add option, if the result of search return one post, display them
+* Add option to force the minimum comment lenght
+* Add option hide meta generator (Wordpress Version)
+* Add option to display message on old post 
+
+= 0.0.1 (2109) =
+*Release Date - 14 September 2021*
+
+* Initial version
